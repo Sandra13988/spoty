@@ -1,15 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TracksRoutingModule } from './tracks-routing.module';
-
 
 
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
-    TracksRoutingModule
+    CommonModule
   ]
 })
-export class TracksModule { }
+export class FavoritesModule { }
